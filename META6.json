@@ -1,0 +1,17 @@
+{
+    "perl": "6.c",
+    "name": "Z3",
+    "version": "0.0.0",
+    "description": "Bindings for Z3",
+    "authors": ["Georgy Moshkin"],
+    "provides": {
+        "Z3" : "lib/Z3.pm6",
+        "Z3::Constants" : "lib/Z3/Constants.pm6"
+    },
+    "depends": [
+        "z3:from<native>"
+    ],
+    "support": {
+        "source": "git://github.com/gmoshkin/z3p6.git"
+    }
+}
