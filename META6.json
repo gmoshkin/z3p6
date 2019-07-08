@@ -6,7 +6,8 @@
     "authors": ["Georgy Moshkin"],
     "provides": {
         "Z3" : "lib/Z3.pm6",
-        "Z3::Constants" : "lib/Z3/Constants.pm6"
+        "Z3::Constants" : "lib/Z3/Constants.pm6",
+        "Z3::Core" : "lib/Z3/Core.pm6"
     },
     "depends": [
         "z3:from<native>"
